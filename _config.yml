@@ -22,7 +22,7 @@ plugins:
 
 # Theme configuration
 show_posts: true
-show_rss_subscribe: false
+show_rss_subscribe: true
 header_pages: 
 
 # Exclude from processing
