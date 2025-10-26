@@ -1,4 +1,7 @@
-# Commits
+---
+layout: home
+title: Commits
+---
 
 ## Commands
 

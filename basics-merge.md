@@ -1,4 +1,7 @@
-# Merge
+---
+layout: home
+title: Merge
+---
 
 ## Types of Merges
 

@@ -1,4 +1,7 @@
-# Help
+---
+layout: home
+title: Help
+---
 
 ## Commands
 

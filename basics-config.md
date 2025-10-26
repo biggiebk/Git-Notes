@@ -1,4 +1,7 @@
-# Config
+---
+layout: home
+title: Config
+---
 
 ## Commands
 

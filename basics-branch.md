@@ -1,4 +1,7 @@
-# Branch
+---
+layout: home
+title: Branch
+---
 
 ## Commands
 

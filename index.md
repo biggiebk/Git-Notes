@@ -5,7 +5,7 @@ title: Notes on Git
 
 ## The Basics
 
-- [Home](basics-basics-home.md)
+- [Home](basics-home.md)
 - [Branch](basics-branch.md)
 - [Commits](basics-commits.md)
 - [Config](basics-config.md)

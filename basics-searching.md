@@ -1,4 +1,7 @@
-# Searching
+---
+layout: home
+title: Searching
+---
 
 ## Commands
 

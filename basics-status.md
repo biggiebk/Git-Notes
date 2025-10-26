@@ -1,4 +1,7 @@
-# Status
+---
+layout: home
+title: Status
+---
 
 ## Commands
 

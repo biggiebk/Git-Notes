@@ -1,4 +1,7 @@
-# Diff
+---
+layout: home
+title: Diff
+---
 
 ## Commands
 

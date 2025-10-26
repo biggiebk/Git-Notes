@@ -1,4 +1,7 @@
-# File/Folder Tracking
+---
+layout: home
+title: File/Folder Tracking
+---
 
 ## Commands
 

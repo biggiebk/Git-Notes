@@ -1,4 +1,7 @@
-# Clone and Remote
+---
+layout: home
+title: Clone and Remote
+---
 
 ## Commands
 
