@@ -1,14 +1,12 @@
 remote_theme: biggiebk/theme_mymadlab@v0.1.0
 
 # Site settings
-title: Your Amazing Site
+title: Git Notes
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Notes on using Git for version control.
 
 # Personal info
-author: Bryce Klimoskiß
+author: Bryce Klimoski
 email: biggiebk@mymadlab.net
 github_username: biggiebk
 repository: biggiebk/Git-Notes
@@ -40,13 +38,13 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-# Optional: Analytics
-# google_analytics: UA-XXXXXXXX-X
-
-# Optional: Social media
-# twitter_username: yourusername
-# linkedin_username: yourusername
-
-# Optional: Comments
-# disqus:
-#   shortname: your-disqus-shortname
+# Syntax highlighting settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
