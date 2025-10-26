@@ -7,19 +7,19 @@ title: Branch
 
 ### Create
 
-```
+```bash
 git branch <branchName>
 ```
 
 #### Create and Switch in One
 
-```
+```bash
 git switch -c <branchName>
 ```
 
 #### Create Branch from Specific Commit ID
 
-```
+```bash
 git branch <branchName> <commitID>
 ```
 
@@ -27,19 +27,19 @@ git branch <branchName> <commitID>
 
 Local
 
-```
+```bash
 git branch -d <branchName>
 ```
 
 #### Force Delete Local
 
-```
+```bash
 git branch -D <branchName>
 ```
 
 #### Remote Delete
 
-```
+```bash
 git push -d origin <branchName>
 ```
 
@@ -47,33 +47,29 @@ git push -d origin <branchName>
 
 Retrieves all remote branches without updating any local branches
 
-{% hint style="info" %}
 If you want to have the remote branch on the local one you need to merge after the fetch.
-{% endhint %}
 
-```
+```bash
 git fetch
 ```
 
 #### Prune remotes that no longer exist
 
-```
+```bash
 git fetch -p
 ```
 
 ### Pull
 
-```
+```bash
 git pull
 ```
 
 ### List
 
-{% hint style="info" %}
 A \* denotes the current branch
-{% endhint %}
 
-```
+```bash
 git branch
 ```
 
@@ -81,13 +77,13 @@ git branch
 
 #### Remote Already Set
 
-```
+```bash
 git push
 ```
 
 #### Specify Remote
 
-```
+```bash
 git push -u origin <branchName>
 ```
 
@@ -95,18 +91,18 @@ git push -u origin <branchName>
 
 #### Current Branch
 
-```
+```bash
 git branch -m <newBranchName>
 ```
 
 #### Specify  Branch
 
-```
+```bash
 git branch -m <oldBranchName> <newBranchName>
 ```
 
 ### Switch
 
-```
+```bash
 git switch <branchName
 ```

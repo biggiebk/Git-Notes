@@ -11,13 +11,13 @@ See the [Working with Bisect](../how-to/working-with-bisect.md) page.
 
 ### Blame
 
-```
+```bash
 git blame <fileName>
 ```
 
 #### Blame on a specific Commit ID
 
-```
+```bash
 git blame <commitID> <fileName>
 ```
 
@@ -25,7 +25,7 @@ git blame <commitID> <fileName>
 
 Run the following to view a log of all the git commands you have run in a repo.
 
-```
+```bash
 git reflog
 ```
 
@@ -33,13 +33,13 @@ git reflog
 
 Search the files that are tracked by the repo using a regex string.
 
-```
+```bash
 git grep <searchString>
 ```
 
 #### Case Insensitive
 
-```
+```bash
 git grep -i <searchString>
 ```
 
@@ -51,7 +51,7 @@ git grep -n <searchString>
 
 #### Return Filename Only
 
-```
+```bash
 git grep -l <searchString>
 ```
 
@@ -63,13 +63,13 @@ Remember these flags can be used with other ones to manipulate the view.
 
 Search for text in files
 
-```
+```bash
 git log -G <searchString> (fileName)
 ```
 
 #### Commit Search
 
-```
+```bash
 git log --grep <searchString
 ```
 
@@ -77,7 +77,7 @@ git log --grep <searchString
 
 Search the commit log
 
-```
+```bash
 git log -S <searchString> (fileName)
 ```
 
@@ -85,7 +85,7 @@ git log -S <searchString> (fileName)
 
 Show the diff between each commit.
 
-```
+```bash
 git log -p
 ```
 
@@ -93,6 +93,6 @@ git log -p
 
 Patch with the word difference in line.
 
-```
+```bash
 git log -p --word-diff
 ```

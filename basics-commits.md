@@ -7,15 +7,13 @@ title: Commits
 
 ### Commit Changes
 
-```
+```bash
 git commit -m "Your brief message here"
 ```
 
 ### Update Last Commit Message
 
-{% hint style="info" %}
 Make sure there are no fresh updates pending. When updating the last commit message any new changes will be committed along with other changes. This only works on the last commit.
-{% endhint %}
 
 git commit --amend -m "New commit message"
 
@@ -23,19 +21,19 @@ git commit --amend -m "New commit message"
 
 Verbose log of current branch
 
-```
+```bash
 git log
 ```
 
 Compact log of current branch
 
-```
+```bash
 git log --oneline
 ```
 
 Log of all commits in the repository displayed as graph
 
-```
+```bash
 git log --oneline --all --graph
 ```
 
@@ -45,7 +43,7 @@ Used to reset to a previous commit. See [understanding resets ](../how-to/undoin
 
 #### Hard
 
-```
+```bash
 git reset --hard <commitID>
 ```
 
@@ -57,7 +55,7 @@ git reset <commitID>
 
 #### Soft
 
-```
+```bash
 git reset --soft <commitID>
 ```
 
@@ -65,16 +63,14 @@ git reset --soft <commitID>
 
 Similar to reset, however only has one mode and instead of deleting commits this one undoes the changes and then makes a new commit.
 
-```
+```bash
 git revert <commitID>
 ```
 
 ### Specific Commit
 
-{% hint style="info" %}
 Will put the repo into headless state
-{% endhint %}
 
-```
+```bash
 git checkout <commitID>
 ```

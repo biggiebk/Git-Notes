@@ -7,19 +7,19 @@ title: Clone and Remote
 
 ### Clone
 
-```
+```bash
 git clone <urlToRemote>
 ```
 
 Clone under a different folder
 
-```
+```bash
 git clone <urlToRemote> <diffFolderName>
 ```
 
 ### Push
 
-```
+```bash
 git push
 ```
 
@@ -29,13 +29,13 @@ Displays information on which remote is used for fetch and push
 
 #### Basic
 
-```
+```bash
 git remote
 ```
 
 #### Detailed
 
-```
+```bash
 git remove -v
 ```
 
@@ -43,12 +43,12 @@ git remove -v
 
 Create
 
-```
+```bash
 git tag <name> (commitID or branchName) # Name should likely be a version v#.#.#
 ```
 
 List Tags
 
-```
+```bash
 git tag --list
 ```

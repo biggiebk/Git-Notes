@@ -7,12 +7,12 @@ title: Help
 
 ### Man page style
 
-```
+```bash
 git help <command>
 ```
 
 ### Short
 
-```
+```bash
 git <command> -h
 ```

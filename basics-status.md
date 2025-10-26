@@ -7,19 +7,19 @@ title: Status
 
 ### Long
 
-```
+```bash
 git status
 ```
 
 ### Short
 
-```
+```bash
 git status -s
 ```
 
 Key/Legend
 
-```
+```bash
 ' ' = unmodified
 M = modified
 T = file type changed (regular file, symbolic link or submodule)

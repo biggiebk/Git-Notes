@@ -21,13 +21,13 @@ This is a more complicated merge and it occurs when the integration branch has b
 
 ### Abort a merge attempt (only possible if there are conflicts)
 
-```
+```bash
 git merge --abort
 ```
 
 ### Merge a (feature) branch into the current (integration) branch
 
-```
+```bash
 git merge <featureBrachName>
 ```
 
@@ -37,7 +37,7 @@ git merge <featureBrachName>
 
 Merge in a specific commit from a branch.  To be run from the branch you want to merge the commit into to.
 
-```
+```bash
 git cherry-pick <commitID>
 ```
 
@@ -45,6 +45,6 @@ git cherry-pick <commitID>
 
 From the branch you want to have rebased. For more information see [Using Rebase](../how-to/using-rebase.md).
 
-```
+```bash
 git rebase
 ```
