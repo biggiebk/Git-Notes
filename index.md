@@ -1,6 +1,6 @@
 ---
 layout: home
-title: The Basics
+title: Notes on Git
 ---
 
 ## The Basics
@@ -15,5 +15,3 @@ title: The Basics
 - [Merge](the-basics/merge.md)
 - [Searching](the-basics/searching.md)
 - [Status](the-basics/status.md)
-
-## How To's
