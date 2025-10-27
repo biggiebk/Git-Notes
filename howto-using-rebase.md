@@ -11,6 +11,6 @@ Note the Commit ID's changed on the feature branch.
 
 All you have to do is run the following command from the Feature branch and will automatically update to the Masters most recent commit ID.
 
-```
+```bash
 git rebase
 ```
