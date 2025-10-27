@@ -5,13 +5,13 @@ title: Notes on Git
 
 ## The Basics
 
-- [Home](basics-home.md)
-- [Branch](basics-branch.md)
-- [Commits](basics-commits.md)
-- [Config](basics-config.md)
-- [Diff](basics-diff.md)
-- [Fit/Folder Tracking](basics-file-folder-tracking.md)
-- [Help](basics-help.md)
-- [Merge](basics-merge.md)
-- [Searching](basics-searching.md)
-- [Status](basics-status.md)
+- [Home]({% link basics-home.md %})
+- [Branch]({% link basics-branch.md %})
+- [Commits]({% link basics-commits.md %})
+- [Config]({% link basics-config.md %})
+- [Diff]({% link basics-diff.md %})
+- [Fit/Folder Tracking]({% link basics-file-folder-tracking.md %})
+- [Help]({% link basics-help.md %})
+- [Merge]({% link basics-merge.md %})
+- [Searching]({% link basics-searching.md %})
+- [Status]({% link basics-status.md %})
