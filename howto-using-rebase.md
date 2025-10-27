@@ -7,9 +7,7 @@ A rebase changes the original commit that a branch was created from to the most 
 
 <img src="../../.gitbook/assets/file.excalidraw (7).svg" alt="" class="gitbook-drawing">
 
-{% hint style="info" %}
 Note the Commit ID's changed on the feature branch.
-{% endhint %}
 
 All you have to do is run the following command from the Feature branch and will automatically update to the Masters most recent commit ID.
 
