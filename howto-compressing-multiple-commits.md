@@ -5,7 +5,7 @@ title: Compressing Multiple Commits
 
 The goal here is to compress multiple previous commits into one, so that you can keep a cleaner commit history. Essentially we will be taking the updates from 1354d91, 6f09339, and 89cc676 and put them into one final commit.
 
-Review the contents of [Undoing Commits (reset)](undoing-commits-reset.html). You use either a mixed (default) or a soft reset to achieve your results. Do _**NOT**_ use a hard reset. I prefer to utilize a mixed reset, as it will force you to review you files one last time by adding them into the index individually.
+Review the contents of [Undoing Commits (reset)](howto-undoing-commits-reset.html). You use either a mixed (default) or a soft reset to achieve your results. Do _**NOT**_ use a hard reset. I prefer to utilize a mixed reset, as it will force you to review you files one last time by adding them into the index individually.
 
 We will be working with the assumption our commit history looks like the following.
 

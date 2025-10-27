@@ -7,7 +7,7 @@ title: Searching
 
 ### Bisect
 
-See the [Working with Bisect](../how-to/working-with-bisect.html) page.
+See the [Working with Bisect](howto-working-with-bisect.html) page.
 
 ### Blame
 
